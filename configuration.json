@@ -1,0 +1,16 @@
+{
+    "general": {
+        "printHeader": true,
+        "printConfiguration": true
+    },
+    "gateway": {
+        "address": "0.0.0.0",
+        "port": 1884,
+        "mqttClientImplementation": "MqttJsClient"
+    },
+    "broker": {
+        "host": "localhost",
+        "port": 1883,
+        "protocol": "tcp"
+    }
+}

@@ -1,0 +1,7 @@
+export enum ReturnCode {
+    ACCEPTED = 0x00,
+    REJECTED_CONGESTION = 0x01,
+    REJECTED_INVALID_TOPIC_ID = 0x02,
+    REJECTED_NOT_SUPPORTED = 0x03,
+    RESERVED = 0x04,
+}
